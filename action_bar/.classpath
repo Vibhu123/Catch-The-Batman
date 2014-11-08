@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="src" path="libs"/>
+	<classpathentry exported="true" kind="lib" path="F:/commons-math3-3.2/commons-math3-3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/vib/Downloads/equation-solver-0.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/vib/Downloads/equation-solver-sources-0.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/vib/Downloads/exp4j-0.3.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/vib/Downloads/jscience-4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/vib/Downloads/feedback_v6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/vib/Downloads/android-support-v4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/vib/Downloads/antlr-3.3-complete.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

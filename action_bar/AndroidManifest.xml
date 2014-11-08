@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.capture_math.action_bar"
+    android:versionCode="7"
+    android:versionName="2.5" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.yourTheme" >
+        <activity
+            android:name="com.example.action_bar.StartActivity"
+              >
+        	<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.action_bar.MainActivity"
+            android:label="@string/app_name" >
+             >
+        </activity>
+        <activity android:name="com.example.action_bar.AlgebricExp" >
+        </activity>
+        <activity android:name="com.example.action_bar.ActionActivity" >
+        </activity>
+        <activity android:name="com.example.action_bar.CaptureActivity" >
+        </activity>
+        <activity android:name="com.example.action_bar.EditBoxActivity" >
+        </activity>
+        <activity android:name="com.example.action_bar.EnterActivity" >
+        </activity>
+        <activity android:name="com.example.action_bar.ProceedActivity" >
+        </activity>
+        <activity android:name="com.example.action_bar.ChoiceActivity"></activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="true" />
+
+</manifest>
